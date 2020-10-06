@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- PARTS OF CODE TAKEN FROM https://www.w3schools.com/w3css/tryw3css_templates_webpage.htm. -->
 <html lang="en">
 <title>CS1300 Personas</title>
 <meta charset="UTF-8">
@@ -9,12 +10,9 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
-.w3-sidebar {
-  z-index: 3;
-  width: 250px;
-  top: 43px;
-  bottom: 0;
-  height: inherit;
+.center {
+  margin: auto;
+  padding: 30px;
 }
 </style>
 <body>
@@ -26,47 +24,67 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   </div>
 </div>
 
+<div class = "center">
   <div class="w3-row w3-padding-64">
       <h1 class="w3-text-teal">Problem Summary</h1>
-      <p>I live in an apartment with three other female identifying friends, where we have a shared hair blow-dryer in the bathroom cabinet. Since my roommates use this appliance in different ways and in different frequencies, I interviewed each of them to understand how they interact with the blow-dryer. I asked them a series of questions to understand their motives, pain points, preferences and expectations from the external design of the device.
-
-      Here’s my (not so pretty) drawing of the physical interface of the blow-dryer. The blow dryer has a basic function: dry the user’s hair when they have just washed it. It does this by blowing out hot air in order to bring all the moisture out of the hair strands and the scalp. The blow-dryer that my roommates and I use has functionalities for high and low speed (of the air blown out) and the heat generated can be set to low, medium or high. There is also a separate functionality to just blast cold air. There are two steps to using this dryer: 1) Plugging it in 2) Pressing the preferred button on it.
-
-Part 1: In the bottom right corner of the drawing, you can see the plug. The back of it has two visible buttons in red and yellow: one that’s labelled “reset” and the other labelled “test.” Once plugged in, the hair dryer does not work until the test button is first pressed and then the reset button. I found that this is the right order of pressing these buttons on Googling this type of an outlet, but none of my interviewees understood what these buttons did and they simply bruteforce pressed both randomly until the dryer started working.
-
-Part 2: There are only 3 buttons on the dryer: one stand-alone pressable button labelled “Cool Blast”, and two scrollable buttons named “Heat” and “Speed.” Heat button has three modes: high, medium and low, while Speed button has three modes: high, low, off. My diagram below shows the difference in usage of these modes. High heat, high speed was used most often among my interviewees. Low heat, high speed was second most used. Low speed was occasionally used while medium heat was barely ever used. 2 of my interviewees had no idea what the cool blast button did and never thought to use them. The other accidentally pressed it once and figured that it lets out cold air and now she sometimes uses this functionality. The other 2 simply went to the “low heat” setting in order to get cold air.
+      <p> I live in an apartment with three other female identifying friends, where we have a shared hair blow-dryer in the bathroom cabinet. Since my roommates use this appliance to achieve different end goals and with varying frequencies, I interviewed each of them to understand how they interact with the blow-dryer. I asked them a series of questions to understand their motives, pain points, preferences and expectations from the external design of the device.</p>
+      <p>
+      Below is my (not so pretty) drawing of the physical interface of the blow-dryer we use. The blow-dryer has a basic function: dry the user’s hair after they have just washed it. It does this by blowing out hot air in order to bring all the moisture out of the hair strands and the scalp. </p>
+      <p>There are two steps to using this dryer: 1) Plugging it in 2) Pressing the preferred button on it.</p>
+      <p><b><u>Part 1</u></b>: In the bottom right corner of the drawing, you can see the plug. The back of it has two visible buttons in red and yellow: one that’s labelled “reset” and the other labelled “test.” Once plugged in, the hair dryer does not work until the test button is first pressed and then the reset button. I found that this is the right order of pressing these buttons by Googling this type of an outlet, but <b><u>none of my interviewees understood what these buttons did</b></u> and they simply bruteforce pressed both randomly until the dryer started working.</p>
+      <p><b><u>Part 2</u></b>: There are only 3 buttons on the dryer: one stand-alone pressable button labelled “Cool Blast”, and two scrollable buttons named “Heat” and “Speed.” Heat button has three modes: high, medium and low, while Speed button has three modes: high, low, off. My diagram below shows the difference in magnitude of usage of these modes. <u>High heat, high speed</u> was used most often among my interviewees. Low heat, high speed was second most used. Low speed was occasionally used while medium heat was barely ever used. <b><u>2 of my interviewees had no idea what the cool blast button did</u></b> and never thought to use them. The other accidentally pressed it once and discovered that it lets out cold air and now she sometimes uses this functionality. The other 2 simply went to the “low heat” setting in order to get cold air.
 </p>
-      <p><center><img src="images/my_drawing.PNG" width="800"
-         height="500"></center></p>
-  </div>
+      <p><center><img src="images/my_drawing.PNG" width="700"
+         height="600"></center></p>
+</div>
 
   <!-- <div class="w3-row">
     <div class="w3-twothird w3-container"> -->
       <h1 class="w3-text-teal">Interview Summary</h1>
-      <p>My questions ranged from asking each of them about their getting-ready routine, to their favorite hair styling products, to more specific questions about their usage of the blow dryer. I ended by asking them to use the product for me, while I asked them questions about the ease of usage, the hand-holding affordance of its physical shape, and the conveyability of its buttons. A summary of the questions and their answers is given below.
+      <p>My questions ranged from asking each of them about their getting-ready routine, to their favorite hair styling products, to more specific questions about their usage of the blow dryer. I ended by asking them to use the product for me, while I asked them questions about the ease of usage, the hand-holding affordance of its physical shape, and the conveyability of its buttons.<p>
+        <h3> Questions </h3>
+        <p><ol>
+          <li>Do you use the blow dryer that's in the bathroom?</li>
+          <li>How often do you use it?</li>
+          <li>What motivates you to use it?</li>
+          <li>How would you deal with a situation wherein you didn't have access to a blow-dryer?</li>
+          <li>When you use it, how long do you use it at a time?</li>
+          <li>Tell me a little bit about your getting ready routine.</li>
+          <li>It is said that hairdryers cause heat damage to hair. How do you feel about that?</li>
+          <li>Imagine you're freshly out of a shower, can you use this dryer for me? As you do that, please talk about what's going through your mind, and how you feel about interacting with the different functionalities of the device.</li>
+          <li>Were you able to achieve everything you set out to do? What didn't work out well?</li>
+          <li>How comfortable did you feel using the product? Were there any momentary confusions or hesitations about turning it on, pressing the buttons, pointing it to your hair, etc?</li>
+          <li>What would you change about this blow-dryer? Any additions, simplifications, change in shape, etc?</li>
+          </ol></p>
 
-      Holding it: my interviewees immediately held the appliance the way it’s meant to be held, at the intersection of the horizontal and the vertical parts with the full palm of the dominant hand (fingers wrapped around the vertical piece) and pointed the air nozzle to their hair.
+          <h3> Response Summary </h3>
+          <ul>
+            <li>All my interviewees used the blow-dryer. 1 of them used it once in 3-4 months because she preferred to air dry her hair and use a straightener for stlying purposes. The other 2 used the blow dryer for both drying and styling; while 1 used it every other day, the other interviewee used it about once a week.</li>
+            <li>Their primary reason for using it was to dry out their hair quickly, so that it doesn't look frizzy and unkept. None of them would use it on a day when there weren't meeting other people because they are cautious about the heat damage. One of them used heat protection products after blow-drying her hair while the other two didn't.</li>
+            <li>All interviewees would not have any issues if they didn't have a blow dryer: they would simply air dry.</li>
+            <li>They said they were able to achieve all functions they wanted to fulfill and felt fully comfortable and familiar with it. All three of them wished the end of the blow-dryer had different types of nozzles so that they could streamline the air in different ways for different parts of the scalp.</li>
+            <li> One of them wished it was foldable for easy transportation, and had a place to wrap the wire around.</li>
+            <li> One interviewee said that it would be great if the product came with its own heat protection spray.</li>
+          </ul>
 
-Switching it on: they plugged it in, moved the heat button from “off” to “high”. The dryer didn’t turn on. So they pressed the red (red first) and yellow buttons until it turned on.
+          <h3> Analysing behaviours </h3>
 
-Using it: the heat button was already set to “high” so they continued on that setting. After drying the hair out of all moisture, they moved to the low heat setting but remained on high speed. They were intuitively able to move the buttons around without even momentarily stopping to think about how to use them.
-
-Problem points: they had no idea what the black “cool blast” button did. One interviewee accidentally discovered this functionality when she pressed it by mistake but none of them ever thought to use it otherwise. They wished it came with different types of nozzles to channel the hair differently. They also wished that there was an obvious place to wrap the wire around when storing it so that it doesn’t come loose. They also wished that the horizontal part collapsed/folded into the vertical part (in an inward U shape) so that it could be stored or transported easily when travelling.
-
-Their interview recordings.
-
-Numbered list of questions and response summaries. Highlight main points.
-
-Overall: They seemed very comfortable with its usage. They have used different models and brands of this appliance but noted that they all had similar functionality.
+      <p><u>Holding it:</u> my interviewees immediately held the appliance the way it’s meant to be held, at the intersection of the horizontal and the vertical parts with the full palm of the dominant hand (fingers wrapped around the vertical piece) and pointed the air nozzle to their hair.</p>
+      <p><u>Switching it on</u>: they plugged it in, moved the speed button from “off” to “high”. The dryer didn’t turn on. So they pressed the bigger red button first and then the yellow button on the plug until it turned on.</p>
+      <p><u>Using it:</u> the heat button was already set to “high” so they continued on that setting. After drying the hair out of all moisture, they moved to the low heat setting but remained on high speed for styling. They were intuitively able to move the buttons around without even momentarily stopping to think about how to use them.</p>
+      <p><u>Problem points:</u> <ul><li> All of them had no idea what the black “cool blast” button did. One interviewee accidentally discovered this functionality when she pressed it by mistake but none of them ever thought to use it otherwise.</li><li>All of them wished it came with different types of nozzles to streamline and channel the air onto different parts of the the hair differently.</li> <li>One user wished that there was an obvious place to wrap the wire around when storing it so that it doesn’t come loose</li><li> The same user said it would be convenient if the horizontal part collapsed/folded into the vertical part (in an inward U shape) so that it could be stored or transported easily when travelling.</li></ul></p>
+      <p><u>Overall:</u> they seemed very comfortable with handling and using it. They have used different models and brands of this appliance but noted that they all had similar functionality and were pretty intuitive.</p>
 
       <h1 class="w3-text-teal">Personas</h1>
       <p><center><img src = "images/claire.png" width = "500", height = "500"><img src = "images/erika.png" width = "500", height = "500"></center></p>
 
     <h1 class="w3-text-teal">Story Boarding</h1>
+    <p> In the third frame, she sets the heat and speed on high. Towards the end of the fourth frame, she changes the heat to low.
     <p><center><img src = "images/story.png" width = "900", height = "900"></center></p>
+  </div>
 
     <div class="w3-container w3-theme-l1">
-      <p>By me, using w3.css's web page template</a></p>
+      <p>By me, using w3.css's web page template: https://www.w3schools.com/w3css/tryw3css_templates_webpage.htm</a></p>
     </div>
   </footer>
 
